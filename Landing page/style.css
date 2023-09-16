@@ -1,0 +1,143 @@
+ 
+
+
+
+
+.logo{
+     
+    display:  inline-block;
+    margin: 30px;
+    size: 10px;
+    box-shadow: 2px 4px 4px silver;
+}
+
+.one{
+    display:  inline-block ;
+    color:  white; 
+    font-family: 'PT Serif', serif;
+
+    
+     
+}
+ nav{
+     color: silver;
+     
+     display: inline;
+     font-family: 'PT Serif', serif;
+    font-family: 'Space Grotesk', sans-serif;
+     font-size: large;
+     padding-left: 50px;
+     
+    
+    
+} 
+li,ul{
+    display: inline;
+    
+}
+li:hover{
+    color:blue;
+}
+
+.two{
+    font-family: 'Roboto Slab', serif;
+    color:white;
+    font-size: larger;
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 600px;
+
+}
+.three{
+    color: silver;
+    padding-left: 70px;
+     
+}
+.button{
+    margin-left: 70px;
+    
+}
+button:hover{
+    color:blue;
+}
+ 
+.four{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 200px;
+    margin-left: 50px;
+     
+}
+.five{
+    color:silver;
+    padding-left: 50px;
+    max-width: 550px;
+    font-family: 'Merriweather', serif;
+    font-size: large;
+}
+.services {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-left: 50px  ;
+    margin-right: 0 ;
+     
+    margin-bottom: 0  ;
+     
+    padding: 40px 0;
+}
+
+.service-card {
+    flex-basis: calc(33.33% - 20px);
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(255, 1, 1);
+}
+
+.service-card i {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.service-card h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.service-card p {
+    font-size: 16px;
+}
+.tit    {
+    color:white;
+    padding-left: 50px;
+    
+    font-family: 'Kanit', sans-serif;
+}
+.one{
+    color: white;
+    padding-left: 50px;
+    font-family: 'Kanit', sans-serif;
+}
+.ico{
+    position: absolute;
+    margin-left: 80px;
+   
+    
+
+}
+.ico a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 4px solid silver;
+    border-radius: 50%;
+    color: silver;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+
+}

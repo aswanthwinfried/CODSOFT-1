@@ -1,0 +1,172 @@
+ *{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:#081b29;
+}
+
+nav{
+    color: white;
+    padding: 20px;
+    font-weight: 500;
+    
+    
+}
+
+li,h1,ul{
+    display: inline;
+
+
+}
+ul{
+    margin-left: 60%;
+    
+}
+
+
+li:hover{
+    color:#00abf0;
+}
+.about{
+     color:white;
+     height: 100px;
+     padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 800px;
+    margin-bottom: 20px;
+
+    display: inline-block;    
+     
+}
+.photo{
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-top: 100px;
+     
+}
+.icons{
+    position:absolute;
+    bottom: 40px;
+    width: 170px;
+     
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border:2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.skill-section {
+    background-color:   #081b29;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.skill {
+    margin: 15px 0;
+}
+
+.skill-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.skill-level {
+    background-color:  #00abf0;
+    height: 20px;
+    border-radius: 10px;
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+
+ 
+.skill-level:nth-child(1) {
+    width: 80%;
+}
+
+.skill-level:nth-child(2) {
+    width: 70%;
+}
+
+.skill-level:nth-child(3) {
+    width: 80%;
+}
+
+.skill-level:nth-child(4) {
+    width: 70%;
+}
+.total {
+    margin-top: 100px;
+}
+
+.asw{
+    padding-top: 200px;
+    padding-left: 100px;
+    font-size: large;
+
+}
+.win{
+    
+    padding-left: 100px;
+    font-size: large;
+    margin-right: 50px;
+
+}
+.two{
+    padding-left: 100px;
+    color:  rgb(17, 240, 248);
+    font-size: large;
+    padding-top: 50px;
+}
+.three{
+    padding-top: 20px;
+    padding-left: 100px;
+    color: #00abf0;
+}
+.four{
+    margin-right: 50px;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-size: large;
+    color: white;
+}
+.five{
+    margin-top: 80px;
+    margin-left: 350px;
+     
+}
+.six{
+    margin-top: 30px;
+    margin-left: 100px;
+    
+}
+.seven{
+    margin-top: 30px;
+    color: rgb(17, 240, 248);
+    font-size: large;
+}
+.eight{
+    margin-top: 30px;
+     
+    font-size: x-large;
+}
